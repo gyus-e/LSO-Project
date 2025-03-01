@@ -16,3 +16,4 @@ Dialogare coi robot.
 
   ### Eseguire su container:
   `docker compose up`
+  Assicurarsi che Furhat sia avviato.

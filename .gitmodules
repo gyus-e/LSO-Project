@@ -1,0 +1,6 @@
+[submodule "LSO-server"]
+	path = LSO-server
+	url = https://github.com/SoftEngUniNA-Amato-Ruggiero/LSO-server.git
+[submodule "LSO-client"]
+	path = LSO-client
+	url = https://github.com/SoftEngUniNA-Amato-Ruggiero/LSO-client.git

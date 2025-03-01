@@ -9,7 +9,7 @@ services:
     secrets:
       - openai-api-key
     environment:
-      - OPENAI_API_KEY=/run/secrets/app-password
+      - OPENAI_API_KEY=/run/secrets/openai-api-key
 
   lso-server:
     image: lso-server

@@ -7,7 +7,7 @@ Dialogare coi robot.
   - [Docker](https://www.docker.com/) (per eseguire su container).
   - Emulatore di Furhat, ottenibile registrandosi su [Furhat.io](https://furhat.io/).
   - Key per le API di OpenAI, ottenibile registrandosi su [OpenAI API Platform](https://openai.com/api/). 
-  -- La key puó essere salvata tra le variabili d'ambiente, oppure nella root della repository, in un file `.env`, il cui corpo deve contenere la seguente riga:
+    La key puó essere salvata tra le variabili d'ambiente, oppure nella root della repository, in un file `.env`, il cui corpo deve contenere la seguente riga:
   
     `OPENAI_API_KEY=<api-key>`
     

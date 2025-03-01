@@ -6,10 +6,10 @@ services:
 #      - furhat-sdk
     build:
       context: LSO-client
-      args:
-        OPENAI_API_KEY: ${OPENAI_API_KEY}
+    secrets:
+      - openai-api-key
     environment:
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_API_KEY=/run/secrets/app-password
 
   lso-server:
     image: lso-server
@@ -17,7 +17,7 @@ services:
       - 9999:9999
     build:
       context: LSO-server
-      
+
 # Per containerizzare l'SDK di Furhat, è necessario rendere visibile il microfono nel container
 
 #  furhat-sdk:
@@ -28,3 +28,7 @@ services:
 #      - 8080:8080
 #    build:
 #      context: Furhat-SDK
+
+secrets:
+  openai-api-key:
+    file: ./openai-api-key.txt

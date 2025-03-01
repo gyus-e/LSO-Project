@@ -2,7 +2,7 @@
 Dialogare coi robot.
 
 ## Usage
-  ### Requirements
+  ### Requisiti
   - [Java SDK versione 8](https://adoptium.net/temurin/releases/?package=jdk&version=8), [gcc](https://gcc.gnu.org/) e [make](https://www.gnu.org/software/make/) (per eseguire localmente).
   - [Docker](https://www.docker.com/) (per eseguire su container).
   - Emulatore di Furhat, ottenibile registrandosi su [Furhat.io](https://furhat.io/).

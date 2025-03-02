@@ -1,6 +1,7 @@
 services:
   lso-client:
     image: lso-client
+    network_mode: "host"
     depends_on:
       - lso-server
 #      - furhat-sdk
@@ -13,6 +14,7 @@ services:
 
   lso-server:
     image: lso-server
+    network_mode: "host"
     ports:
       - 9999:9999
     build:
@@ -22,6 +24,7 @@ services:
 
 #  furhat-sdk:
 #    image: furhat-sdk
+#    network_mode: "host"
 #    ports:
 #      - 1932:1932
 #      - 8888:8888

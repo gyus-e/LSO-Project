@@ -33,4 +33,4 @@ services:
 
 secrets:
   openai_api_key:
-    environment: OPENAI_API_KEY
+    file: openai_api_key.txt

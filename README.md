@@ -19,7 +19,7 @@ Il robot utilizzato è [Furhat](https://docs.furhat.io/).
     - La key deve essere salvata in un file nella root della repository col nome `openai_api_key.txt`.
 
   ### Eseguire localmente:
-  Eseguire individualmente il server e il client. Per istruzioni su come farlo, consultare le relative repository.
+  Eseguire individualmente il server e il client. Per istruzioni su come farlo, consultare i README delle relative repository.
   
   ### Eseguire su container:
   ```sh

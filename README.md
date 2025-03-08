@@ -2,7 +2,7 @@
 Dialogare coi robot.
 
 ## Description
-Progetto di Laboratorio di Sistemi Operativi anno 2024/2025, Universitá degli Studi di Napoli Federico II, Corso di Studi in Informatica, DIETI.
+Progetto di Laboratorio di Sistemi Operativi anno 2024/2025, Universitá degli Studi di Napoli Federico II, Corso di Laurea in Informatica, DIETI.
 
 Il progetto consiste in un'architettura client-server.
 Il client ha il compito di fare da intermediario tra un robot ed una persona, permettendo al robot di fare domande per stabilire quale personalità ha l'interlocutore (livello di estroversione, amicalità, coscienziosità, stabilità emotiva, apertura a nuove esperienze). Il server riceve le risposte dell'utente e calcola una stima della personalitá da inviare al client. Ottenuta una stima della personalitá dal server, il client usa openai per la gestione dei dialoghi.

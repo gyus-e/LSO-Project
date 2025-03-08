@@ -12,7 +12,9 @@ Il robot utilizzato è [Furhat](https://docs.furhat.io/).
 
 ## Usage
   ### Requirements
-  - [Java SDK versione 8](https://adoptium.net/temurin/releases/?package=jdk&version=8), [gcc](https://gcc.gnu.org/) e [make](https://www.gnu.org/software/make/) (per eseguire localmente).
+  - [gcc](https://gcc.gnu.org/) e [make](https://www.gnu.org/software/make/) (per compilare localmente il server).
+  - Sistema operativo compatibile con standard Posix (per eseguire localmente il server).
+  - [Java SDK versione 11](https://adoptium.net/temurin/releases/?package=jdk&version=11) (per compilare e eseguire localmente il client).
   - [Docker](https://www.docker.com/) e [docker-compose](https://docs.docker.com/compose/) (per eseguire su container).
   - Furhat SDK, ottenibile registrandosi su [Furhat.io](https://furhat.io/).
   - Key per le API di OpenAI, ottenibile registrandosi su [OpenAI API Platform](https://openai.com/api/). 

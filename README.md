@@ -26,3 +26,4 @@ Il robot utilizzato è [Furhat](https://docs.furhat.io/).
   ### Eseguire su container:
   ```sh
   docker compose up
+ 
